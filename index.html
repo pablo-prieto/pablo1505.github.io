@@ -2,20 +2,19 @@
 layout: default
 ---
 
-<div class="wrapper">
-    <section>
-        <h1> About Me </h1>
-        <hr>
-        <p> 
-			Some stuff here
-		</p>
+<div class="home">
 
-<p> Other stuff here
-</p>
+  <h1>Posts</h1>
 
-<p> And more other stuff here.  
-</p>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-    </section>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

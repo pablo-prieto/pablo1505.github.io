@@ -1,0 +1,14 @@
+---
+title: Java Final Project
+subtitle: Java API
+layout: default
+modal-id: 1
+date: 2015-07-23
+img: Main.png
+thumbnail: Employee Menu-thumbnail2.png
+project-date: April 2014
+client: 
+category: Java API
+description: In this project, I created an API where users can clock in/out and administrators can add/delete an employee from the system. I created a GUI with buttons and text fields in order for it to be as user friendly as possible!
+
+---
