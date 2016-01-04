@@ -1,15 +1,15 @@
 ---
-title: Java Final Project
-subtitle: Java API
+title: Esports Coach
+subtitle: Web Development Project
 layout: default
 modal-id: 2
 date: 2014-07-17
 img: Main.png
-thumbnail: Main-thumbnail.png
+thumbnail: escape.png
 alt: image-alt
 project-date: April 2014
-client: 
-category: Java API
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+client:
+category: Web Development Project
+description: A web app developed for coaching in Esports' League of Legends.
 
 ---
