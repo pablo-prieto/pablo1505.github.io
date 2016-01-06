@@ -4,10 +4,10 @@ subtitle: Web Development Project
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: Main.png
-thumbnail: escape-thumbnail.png
+img: EsportsCoachMain.png
+thumbnail: EsportsCoachMain-Thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: December 2015
 client:
 category: Web Development Project
 description: A web app developed for coaching in Esports' League of Legends.
