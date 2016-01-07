@@ -21,22 +21,14 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	<script type="text/javascript">
-	$(document).ready(function() {
-		$('.bxslider').bxSlider({
-			auto: true,
-			pager: true,
-			slideWidth: 800,
-			captions: true
-		});
-	});
-	</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="jquery.bxslider.min.js"></script>
+    <link href="jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".bxslider").bxSlider();
+        });
+    </script>
 </head>
 
 
@@ -314,7 +306,7 @@
                             <hr class="star-primary">
 							<ul class="bxslider">
 								<li><img src="img/portfolio/Main.png" title="First image caption" /></li>
-								<li><img src="img/portfolio/Main.png" title="Second image caption" /></li>
+								<li><img src="img/portfolio/" title="Second image caption" /></li>
 							</ul>
                             <p>In this project, I created an API where users can clock in/out and administrators can add/delete an employee from the system. I created a GUI with buttons and text fields in order for it to be as user friendly as possible!</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -342,7 +334,7 @@
                             <hr class="star-primary">
 							<ul class="bxslider">
 								<li><img src="img/portfolio/EsportsCoachMain.png" title="First image caption" /></li>
-								<li><img src="img/portfolio/EsportsCoachMain.png" title="Second image caption" /></li>
+								<li><img src="img/portfolio/EsportsCoachListOfCoaches.png" title="Second image caption" /></li>
 							</ul>
                             <p>A web app developed for coaching in Esports' League of Legends.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -370,7 +362,7 @@
                             <hr class="star-primary">
 							<ul class="bxslider">
 								<li><img src="img/portfolio/golden.png" title="First image caption" /></li>
-								<li><img src="img/portfolio/golden.png" title="Second image caption" /></li>
+								<li><img src="img/portfolio/" title="Second image caption" /></li>
 							</ul>
                             <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -398,7 +390,7 @@
                             <hr class="star-primary">
 							<ul class="bxslider">
 								<li><img src="img/portfolio/treehouse.png" title="First image caption" /></li>
-								<li><img src="img/portfolio/treehouse.png" title="Second image caption" /></li>
+								<li><img src="img/portfolio/" title="Second image caption" /></li>
 							</ul>
                             <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -426,7 +418,7 @@
                             <hr class="star-primary">
 							<ul class="bxslider">
 								<li><img src="img/portfolio/roundicons.png" title="First image caption" /></li>
-								<li><img src="img/portfolio/roundicons.png" title="Second image caption" /></li>
+								<li><img src="img/portfolio/" title="Second image caption" /></li>
 							</ul>
                             <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -454,7 +446,7 @@
                             <hr class="star-primary">
 							<ul class="bxslider">
 								<li><img src="img/portfolio/startup-framework.png" title="First image caption" /></li>
-								<li><img src="img/portfolio/startup-framework.png" title="Second image caption" /></li>
+								<li><img src="img/portfolio/" title="Second image caption" /></li>
 							</ul>
                             <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -464,7 +456,6 @@
             </div>
         </div>
     </div>
-
 
 
      <!-- jQuery Version 1.11.0 -->
@@ -484,6 +475,18 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/agency.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <link href="/css/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+    $(document).ready(function () {
+      $('.bxslider').bxSlider({
+        mode: 'fade',
+        captions: true
+      });
+    });
+    </script>
 
 
     </body>

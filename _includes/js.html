@@ -15,3 +15,15 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="{{ "/js/jquery.bxslider.min.js" | prepend: site.baseurl }}"></script>
+    <link href="{{ "/css/jquery.bxslider.css" | prepend: site.baseurl }}" rel="stylesheet" />
+    <script type="text/javascript">
+    $(document).ready(function () {
+      $('.bxslider').bxSlider({
+        mode: 'fade',
+        captions: true
+      });
+    });
+    </script>

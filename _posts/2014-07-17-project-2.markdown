@@ -5,6 +5,7 @@ layout: default
 modal-id: 2
 date: 2014-07-17
 img: EsportsCoachMain.png
+img2: EsportsCoachListOfCoaches.png
 thumbnail: EsportsCoachMain-Thumbnail.png
 alt: image-alt
 project-date: December 2015
