@@ -4,7 +4,8 @@ subtitle: Java API
 layout: default
 modal-id: 1
 date: 2015-07-23
-img: Main.png
+img: EsportsCoachMain.png
+img2: EsportsCoachListOfCoaches.png
 thumbnail: Employee Menu-thumbnail2.png
 project-date: April 2014
 client:
