@@ -534,24 +534,31 @@
         // speed: 6000
         // preloadImages: all,
       });
-      // var test = "hello";
-      // $('.portfolio-link').click(function(){
-      //   // e.preventDefault();
-      //   alert(test);
-      //   // slider.destroySlider();
-      //   // slider.reloadSlider();
-      //   slider.slideWidth = 100;
-      // });
+      var test = "hello";
+
     });
     </script>
     <script>
+    $('.portfolio-link').click(function(){
+      var slider = $('.bxslider').bxSlider({
+        slideWidth : 300,
+        preloadImages: 'all',
+      // e.preventDefault();
+      // alert(test);
+      // slider.destroySlider();
+      //  slider.reloadSlider();
+      //slider.slideWidth = 100;
+      });
+    }); 
+    </script>
+    <!-- <script>
     $(document).ready(function () {
-      $('#test-reload').click(function()){
+      $('#test-reload').click(function(){
         alert('first point');
         slider.reloadSlider();
       });
     });
-    </script>
+    </script> -->
     <!-- <script>
     reloadSlider = function(settings){
 
