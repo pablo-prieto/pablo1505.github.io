@@ -1,5 +1,6 @@
  <!-- jQuery Version 1.11.0 -->
     <script src="{{ "/js/jquery-1.12.0.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
@@ -34,27 +35,36 @@
 
     });
     </script>
-    <script>
+    <!-- <script>
     $('.portfolio-link').click(function(){
       var slider = $('.bxslider').bxSlider({
         slideWidth : 300,
         preloadImages: 'all',
+        auto: true
       // e.preventDefault();
       // alert(test);
       // slider.destroySlider();
       //  slider.reloadSlider();
       //slider.slideWidth = 100;
       });
-    }); 
-    </script>
-    <!-- <script>
+    });
+    </script> -->
+    <script>
     $(document).ready(function () {
-      $('#test-reload').click(function(){
+      $('.test-reload').click(function(){
         alert('first point');
+
+        var slider = $('.bxslider').bxSlider({
+          slideWidth : 300,
+          preloadImages: 'all',
+          // ticker: true,
+          // speed: 6000
+          // preloadImages: all,
+        });
         slider.reloadSlider();
       });
     });
-    </script> -->
+    </script>
     <!-- <script>
     reloadSlider = function(settings){
 

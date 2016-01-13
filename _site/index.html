@@ -146,11 +146,10 @@
                   <li><img src="img/portfolio/startup-framework.png" title="Second image caption" /></li>
                 </ul>
                 
-                <button id="test-reload">test button</button>
+                <button class="test-reload">test button</button>
             </div>
         </div>
     </section>
-    
 
 	<!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
@@ -353,6 +352,7 @@
 
                               <li><img src="img/portfolio/EsportsCoachListOfCoaches.png" title="Second image caption" /></li>
                             </ul>
+                            <p>This project, is an API where users can clock in/out and administrators can add/delete an employee from the system. I created a GUI with buttons and text fields in order for it to be as user friendly as possible!</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -381,6 +381,7 @@
 
                               <li><img src="img/portfolio/EsportsCoachListOfCoaches.png" title="Second image caption" /></li>
                             </ul>
+                            <p>A web app developed for coaching in the Esports' League of Legends game. It is implemented using the django framework and PostgreSql Database.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -409,6 +410,7 @@
 
                               <li><img src="img/portfolio/" title="Second image caption" /></li>
                             </ul>
+                            <p>Testing.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -437,6 +439,7 @@
 
                               <li><img src="img/portfolio/" title="Second image caption" /></li>
                             </ul>
+                            <p>Testing.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -465,6 +468,7 @@
 
                               <li><img src="img/portfolio/" title="Second image caption" /></li>
                             </ul>
+                            <p>Testing.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -493,6 +497,7 @@
 
                               <li><img src="img/portfolio/" title="Second image caption" /></li>
                             </ul>
+                            <p>Testing.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -504,6 +509,7 @@
 
      <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery-1.12.0.min.js"></script>
+    <script src="/js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="/js/bootstrap.min.js"></script>
@@ -538,27 +544,36 @@
 
     });
     </script>
-    <script>
+    <!-- <script>
     $('.portfolio-link').click(function(){
       var slider = $('.bxslider').bxSlider({
         slideWidth : 300,
         preloadImages: 'all',
+        auto: true
       // e.preventDefault();
       // alert(test);
       // slider.destroySlider();
       //  slider.reloadSlider();
       //slider.slideWidth = 100;
       });
-    }); 
-    </script>
-    <!-- <script>
+    });
+    </script> -->
+    <script>
     $(document).ready(function () {
-      $('#test-reload').click(function(){
+      $('.test-reload').click(function(){
         alert('first point');
+
+        var slider = $('.bxslider').bxSlider({
+          slideWidth : 300,
+          preloadImages: 'all',
+          // ticker: true,
+          // speed: 6000
+          // preloadImages: all,
+        });
         slider.reloadSlider();
       });
     });
-    </script> -->
+    </script>
     <!-- <script>
     reloadSlider = function(settings){
 

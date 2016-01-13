@@ -11,6 +11,6 @@ alt: image-alt
 project-date: December 2015
 client:
 category: Web Development Project
-description: A web app developed for coaching in Esports' League of Legends.
+description: A web app developed for coaching in the Esports' League of Legends game. It is implemented using the django framework and PostgreSql Database.  
 
 ---
