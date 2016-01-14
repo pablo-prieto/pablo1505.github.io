@@ -20,7 +20,7 @@
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
     <!-- <script src="http://bxslider.com/sites/default/files/jquery.bxSlider.min.js" type="text/javascript"></script> -->
     <script src="{{ "/js/jquery.bxslider.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.bxslider.js" | prepend: site.baseurl }}"></script>
+    <!-- <script src="{{ "/js/jquery.bxslider.js" | prepend: site.baseurl }}"></script> -->
 
     <script type="text/javascript">
     $(document).ready(function () {
@@ -31,25 +31,27 @@
         // speed: 6000
         // preloadImages: all,
       });
-      var test = "hello";
 
     });
     </script>
-    <!-- <script>
+    <script>
     $('.portfolio-link').click(function(){
       var slider = $('.bxslider').bxSlider({
         slideWidth : 300,
         preloadImages: 'all',
-        auto: true
+        auto: true,
+        mode: 'horizontal',
+        hideControlOnEnd: true
       // e.preventDefault();
       // alert(test);
       // slider.destroySlider();
-      //  slider.reloadSlider();
+
       //slider.slideWidth = 100;
       });
+      // slider.reloadSlider();
     });
-    </script> -->
-    <script>
+    </script>
+    <!-- <script>
     $(document).ready(function () {
       $('.test-reload').click(function(){
         alert('first point');
@@ -64,7 +66,7 @@
         slider.reloadSlider();
       });
     });
-    </script>
+    </script> -->
     <!-- <script>
     reloadSlider = function(settings){
 
