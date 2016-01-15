@@ -17,8 +17,6 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
 
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
-    <!-- <script src="http://bxslider.com/sites/default/files/jquery.bxSlider.min.js" type="text/javascript"></script> -->
     <script src="{{ "/js/jquery.bxslider.min.js" | prepend: site.baseurl }}"></script>
     <!-- <script src="{{ "/js/jquery.bxslider.js" | prepend: site.baseurl }}"></script> -->
 
@@ -27,8 +25,6 @@
       var slider = $('.bxslider').bxSlider({
         slideWidth : 300,
         preloadImages: 'all',
-        // ticker: true,
-        // speed: 6000
         // preloadImages: all,
       });
 
@@ -42,63 +38,6 @@
         auto: true,
         mode: 'horizontal',
         hideControlOnEnd: true
-      // e.preventDefault();
-      // alert(test);
-      // slider.destroySlider();
-
-      //slider.slideWidth = 100;
       });
-      // slider.reloadSlider();
     });
     </script>
-    <!-- <script>
-    $(document).ready(function () {
-      $('.test-reload').click(function(){
-        alert('first point');
-
-        var slider = $('.bxslider').bxSlider({
-          slideWidth : 300,
-          preloadImages: 'all',
-          // ticker: true,
-          // speed: 6000
-          // preloadImages: all,
-        });
-        slider.reloadSlider();
-      });
-    });
-    </script> -->
-    <!-- <script>
-    reloadSlider = function(settings){
-
-			this.destroySlider();
-			init();
-		}
-    </script> -->
-
-
-    <!-- <script type="text/javascript">
-    var slider = $('.bxslider').bxSlider({
-      mode: 'horizontal',
-      slideWidth : 300
-    });
-    </script> -->
-
-    <!-- <script type="text/javascript">
-    $('.portfolio-link').click(function(){
-      $('.bxslider').bxSlider({
-        slideWidth : 300,
-        // preloadImages: 'all',
-        // ticker: true,
-        // speed: 6000
-        // preloadImages: all,
-      });
-    });
-    </script> -->
-    <!-- <script>
-    function quickView() {
-      var slider = $('.bxslider').bxSlider({pagerCustom: '#bx-pager', controls: false });
-      setTimeout(function() { slider.reloadSlider();}, 200);
-
-    }
-    $(".quickview").on("click", quickView);
-    </script> -->
